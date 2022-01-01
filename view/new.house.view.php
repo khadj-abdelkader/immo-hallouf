@@ -22,8 +22,8 @@
     <input type="number" class="form-control" name="surface" id="surface">
   </div>
   <div class="form-group">
-    <label for="prix">Prix</label>
-    <input type="number" class="form-control" name="prix" id="prix">
+    <label for="price">Prix</label>
+    <input type="number" class="form-control" name="price" id="price">
   </div>
   <div class="form-group">
     <label for="address">Adresse</label>
