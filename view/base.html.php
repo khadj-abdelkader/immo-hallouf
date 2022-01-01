@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css" crossorigin="anonymous">
     <title>Immobilier</title>
 </head>
-<body class="bgcolor">
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
@@ -25,16 +25,16 @@
             <a class="nav-link" href="<?= URL ?>accueil">Accueil</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= URL ?>games">Maisons</a>
+            <a class="nav-link" href="<?= URL ?>houses">Maisons</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= URL ?>">Appartements</a>
+            <a class="nav-link" href="<?= URL ?>flats">Appartements</a>
         </li>
         </ul>
     </div>
     </nav>
 
-    <div class="container">
+    <div class="bgcolor">
 
         <h1>
             <?= $title ?>
