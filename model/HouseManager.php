@@ -41,8 +41,6 @@ class HouseManager extends Manager {
         $result = $statement->execute();
         $statement->closeCursor();
 
-        // Continuer à adapter GameManager en HouseManager
-
         if($result){
             $house = new House($this->getBdd()->lastInsertId(),$titre, $adresse, $ville, $cp, $surface, $prix, $photo, $type, $description);
             $this->addHouse($house);
