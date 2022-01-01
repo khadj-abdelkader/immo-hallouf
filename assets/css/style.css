@@ -1,12 +1,10 @@
 * {
     font-family: 'Sansita Swashed', cursive;
-    background-color: #222222;
 }
 
-/* body {
-    
-
-} */
+.bgcolor {
+    background-color: #222222;
+}
 
 h1 {
     color: #a298c9;
@@ -15,4 +13,9 @@ h1 {
 
 .center {
     text-align: center;
+    color: #dfd9f3;
+}
+
+.container {
+    background-color: #222222;
 }
