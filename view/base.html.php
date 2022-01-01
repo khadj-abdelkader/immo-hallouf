@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css" crossorigin="anonymous">
-    <title>Immobilier</title>
+    <title>Immo'Hallouf</title>
 </head>
-<body>
+<body class="bgcolor">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
