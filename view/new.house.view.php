@@ -1,6 +1,6 @@
 <?php ob_start() ?>
 
-<form method="POST" action="<?= URL ?>houses/hvalid">
+<form method="POST" action="<?= URL ?>houses/hvalid" enctype="multipart/form-data">
   <div class="form-group">
     <label for="title">Titre du logement</label>
     <input type="text" class="form-control" name="title" id="title">
@@ -26,12 +26,8 @@
     <input type="number" class="form-control" name="price" id="price">
   </div>
   <div class="form-group">
-    <label for="address">Adresse</label>
-    <input type="number" class="form-control" name="address" id="address">
-  </div>
-  <div class="form-group">
-    <label for="photo">Photo</label>
-    <input type="text" class="form-control" name="photo" id="photo">
+    <label for="file">Photo</label>
+    <input type="file" class="form-control" name="file" id="file">
   </div>
   <div class="form-group">
     <label for="type">Type</label>
@@ -39,7 +35,7 @@
   </div>
   <div class="form-group">
     <label for="description">Description</label>
-    <input type="number" class="form-control" name="description" id="description">
+    <input type="text" class="form-control" name="description" id="description">
   </div>
   <button type="submit" class="btn btn-primary">Ajouter</button>
 </form>
