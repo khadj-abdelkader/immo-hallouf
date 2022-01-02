@@ -3,15 +3,15 @@
 class House {
 
     private int $idLogement;
-    private int $titre;
-    private int $adresse;
-    private int $ville;
+    private string $titre;
+    private string $adresse;
+    private string $ville;
     private int $cp;
     private int $surface;
     private int $prix;
-    private int $photo;
-    private int $type;
-    private int $description;
+    private string $photo;
+    private bool $type;
+    private string $description;
 
     public function __construct($idLogement, $titre, $adresse, $ville, $cp, $surface, $prix, $photo, $type, $description){
         $this->idLogement = $idLogement;
