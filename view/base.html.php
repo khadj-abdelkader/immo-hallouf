@@ -25,10 +25,7 @@
             <a class="nav-link" href="<?= URL ?>accueil">Accueil</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= URL ?>houses">Maisons</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="<?= URL ?>flats">Appartements</a>
+            <a class="nav-link" href="<?= URL ?>houses">Annonces</a>
         </li>
         </ul>
     </div>
